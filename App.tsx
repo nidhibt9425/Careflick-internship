@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { useUsers } from './hooks/useUsers';
-import { User } from './types';
+import { useUsers } from './useUsers'; // './hooks/' hata diya
+import { User } from './index';        // './types' ki jagah './index' kar diya
+
 import { Search, Plus, FileText, Users as UsersIcon } from 'lucide-react';
 
 const App = () => {
